@@ -40,4 +40,4 @@ The Simon Game is a memory skill game that requires players to repeat a sequence
 
 1. **Clone the repository:**
    
-  = git clone https://github.com/yourusername/simon-game.git
+  = git clone https://github.com/abdurrahman2004/simon-game.git
