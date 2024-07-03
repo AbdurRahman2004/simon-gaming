@@ -6,7 +6,10 @@ var userClickedPattern=[];
 var level=0;
 var started=false;
 
-$(document).keypress(function(){
+$(document).keypress(onStart);
+
+
+function onStart(){
     if(!started){
      $("#level-title").text("level "+level);
 
@@ -14,7 +17,7 @@ $(document).keypress(function(){
 
      started=true;
     }
-});
+}
 
 $(".btn").click(function(){
 
